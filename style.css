@@ -1,20 +1,54 @@
 #main{
-    background-color: #003C43
+    background-color: #DEF5E5
 }
 #main2{
-    background-color: #135D66
+    background-color: #BCEAD5
 }
 #main3{
-    background-color: #77B0AA
+    background-color: #9ED5C5
 }
 #main4{
-    background-color: #E3FEF7
+    background-color: #8EC3B0
 }
 
 #white{
-    background-color: white;
+    border: 1px solid;
+    border-color: rgba(0, 0, 0, 0.3)
 }
 
 p{
     font-size: 1vw;
+}
+
+@media only screen and (max-width: 1200px) {
+
+    p{
+        font-size: 1.5vw;
+    }
+}
+@media only screen and (max-width: 850px) {
+
+    p{
+        font-size: 2vw;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    p{
+        font-size: 3vw;
+    }
+}
+@media only screen and (max-width: 400px) {
+
+    p{
+        font-size: 4vw;
+    }
+}
+
+@media only screen and (max-width: 200px) {
+
+    p{
+        font-size: 6vw;
+    }
 }
